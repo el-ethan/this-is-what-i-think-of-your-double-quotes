@@ -1,0 +1,14 @@
+{
+  "name": "this-is-what-i-think-of-your-double-quotes",
+  "version": "1.0.0",
+  "description": "Like eslint but only fixes double quotes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0"
+  }
+}
