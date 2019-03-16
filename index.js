@@ -13,7 +13,6 @@ function fixDoubleQuotes(file) {
     const fileContents = fs.readFileSync(file, 'utf8');
     const writeStream = fs.createWriteStream(file);
     const updatedFileContents = fileContents.replace(/"/g, '💩');
-    console.log(updatedFileContents);
     writeStream.write(updatedFileContents);
     writeStream.end();
 }
